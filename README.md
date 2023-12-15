@@ -25,7 +25,8 @@ Here are some of the tools and languages I have experience with and used in proj
 ### 1) EC2 Master
 This AWS project aims to create a highly available and scalable web application infrastructure using Amazon Web Services (AWS). The infrastructure includes a Virtual Private Cloud (VPC) with public and private subnets spread across multiple Availability Zones (AZs), EC2 instances hosting an Nginx web server, an Application Load Balancer (ALB), Auto Scaling Group, and CloudWatch alarms for automatic scaling based on CPU utilization.
 
-![Alt text](https://github.com/clairenwachukwu/clairenwachukwu/blob/1876023b75d7a4e26a9022fec0eeb0f7e05c18f2/ec2MasterImg.png)
+<img src="https://github.com/clairenwachukwu/clairenwachukwu/blob/1876023b75d7a4e26a9022fec0eeb0f7e05c18f2/ec2MasterImg.png" alt="Alt text" style="width:auto;height:400px;">
+
 #### Application Architecture used:
 + EC2 (Elastic Compute Cloud) 
 + Networking Services: VPC, Internet Gateway, Route Table, Subnet, NAT Gateway, Security Group
@@ -59,6 +60,40 @@ The project architecture consists of the following components:
 
 ### 2) Cloud-Based Exponent Calculator
 This Exponent calculator Application is a serverless end-to-end cloud-based project designed to calculate the exponent of two numbers provided by the user. The project utilizes several AWS services such as AWS Amplify, S3 bucket, API Gateway, Lambda functions, IAM, and DynamoDB to create scalable, secure, and highly available architecture.
+
+<img src="https://github.com/clairenwachukwu/clairenwachukwu/blob/feeb1b534fc2b669f509082f47c397691f864d18/exponentCalImg.png" alt="Alt text" style="width:auto;height:400px;">
+
+#### Architecture Overview:
+The architecture of the AWS Calculator Application is designed to handle user requests efficiently, compute the exponent, and store the results in a database for future reference. Here's an overview of the components and their interactions:
+
++ Amazon S3:
+The static HTML, CSS, and JavaScript files of the application are hosted on an Amazon S3 bucket. S3 ensures high availability and low latency for serving these files to users globally.
+
++ AWS Amplify:
+Amplify is used for deploying and managing the frontend application. It simplifies the process of connecting the frontend to backend services.
+
++ API Gateway:
+API Gateway acts as a gateway for the frontend to communicate with the backend Lambda functions. It provides a secure and scalable API endpoint for the frontend application.
+
++ Lambda Functions:
+AWS Lambda functions are serverless compute services that execute the exponent calculation logic. A Lambda function is created to receive user input and perform the exponent calculation and for storing the results in DynamoDB.
+
++ IAM (Identity and Access Management):
+IAM roles and policies are used to manage permissions for the Lambda functions. The functions are granted specific permissions to interact with other AWS services securely.
+
++ DynamoDB:
+DynamoDB is a NoSQL database service provided by AWS. It is used to store the calculated exponents along with relevant metadata. DynamoDB offers fast and reliable performance at any scale.
+
++ Other Technology used: Terraform, Python, Bash
+
+Project Deployment: https://github.com/clairenwachukwu/ec2Master.git
+
+
+
+## 🛠️  Currently Working On..
+###  DevSecOps Pipeline Project: Deploy Netflix Clone on Kubernetes
+In this project centered around DevSecOps practices, my goal is to employ a secure continuous integration and continuous deployment (CICD) pipeline, orchestrated by Jenkins, to deploy a Netflix-like application as a Docker container onto a Kubernetes cluster. This deployment involves the utilization of various widely-used DevOps tools such as Docker, Sonarqube, Trivy, Prometheus, Grafana, and additionally, Argocd and Helm for managing Kubernetes deployments.
+
 
 
           
