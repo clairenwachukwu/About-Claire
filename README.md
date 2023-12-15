@@ -22,49 +22,45 @@ Here are some of the tools and languages I have experience with and used in proj
 </div>
 
 ## 👩‍💻 PROJECTS
-### EC2 Master
+### 1) EC2 Master
 This AWS project aims to create a highly available and scalable web application infrastructure using Amazon Web Services (AWS). The infrastructure includes a Virtual Private Cloud (VPC) with public and private subnets spread across multiple Availability Zones (AZs), EC2 instances hosting an Nginx web server, an Application Load Balancer (ALB), Auto Scaling Group, and CloudWatch alarms for automatic scaling based on CPU utilization.
 
 ![Alt text](https://github.com/clairenwachukwu/clairenwachukwu/blob/1876023b75d7a4e26a9022fec0eeb0f7e05c18f2/ec2MasterImg.png)
-Application Architecture used:
+#### Application Architecture used:
++ EC2 (Elastic Compute Cloud) 
++ Networking Services: VPC, Internet Gateway, Route Table, Subnet, NAT Gateway, Security Group
++ ALB (Application Load Balancer)
++ Auto Scaling
++ CloudWatch
++ Other Technology used: Terraform, Shell scripting
 
 
-EC2 (Elastic Compute Cloud)
-Networking Services:
-VPC (Virtual Private Cloud)
-Internet Gateway
-Route Table
-Subnet
-NAT Gateway
-Security Group
-ALB (Application Load Balancer)
-Auto Scaling
-CloudWatch
-Other Technology used:
-Terraform
-Bash 
-
-
-Architecture Overview:
+#### Architecture Overview:
 The project architecture consists of the following components:
 
-VPC: A Virtual Private Cloud (VPC) is created
+- VPC: A Virtual Private Cloud (VPC) is created
 
-Public Subnets: Three public subnets are created, each in a different Availability Zone, allowing instances in these subnets to have public internet access
+- Public Subnets: Three public subnets are created, each in a different Availability Zone, allowing instances in these subnets to have public internet access
 
-Private Subnets: Three private subnets are created, each in a different Availability Zone, where EC2 instances hosting the web application reside. These instances do not have direct internet access.
+- Private Subnets: Three private subnets are created, each in a different Availability Zone, where EC2 instances hosting the web application reside. These instances do not have direct internet access.
 
-Internet Gateway: An Internet Gateway is attached to the VPC, allowing instances in the public subnets to connect to the internet.
+- Internet Gateway: An Internet Gateway is attached to the VPC, allowing instances in the public subnets to connect to the internet.
 
-NAT Gateway:A NAT Gateway is deployed in one of the public subnets, enabling instances in the private subnets to initiate outbound traffic to the internet while keeping them secure.
+- NAT Gateway:A NAT Gateway is deployed in one of the public subnets, enabling instances in the private subnets to initiate outbound traffic to the internet while keeping them secure.
 
-Security Groups: Security groups are implemented to control inbound and outbound traffic for the instances.
+- Security Groups: Security groups are implemented to control inbound and outbound traffic for the instances.
 
-ALB: An Application Load Balancer (ALB) is created in the public subnets to distribute incoming web traffic across multiple instances.
+- ALB: An Application Load Balancer (ALB) is created in the public subnets to distribute incoming web traffic across multiple instances.
 
-Auto Scaling Group: An Auto Scaling Group is configured to automatically scale the number of EC2 instances based on CPU utilization. CloudWatch alarms trigger scaling policies.
+- Auto Scaling Group: An Auto Scaling Group is configured to automatically scale the number of EC2 instances based on CPU utilization. CloudWatch alarms trigger scaling policies.
 
-          
+#### Project Deployment:[          ](https://github.com/clairenwachukwu/ec2Master.git)https://github.com/clairenwachukwu/ec2Master.git
+
+
+### 2) Cloud-Based Exponent Calculator
+This Exponent calculator Application is a serverless end-to-end cloud-based project designed to calculate the exponent of two numbers provided by the user. The project utilizes several AWS services such as AWS Amplify, S3 bucket, API Gateway, Lambda functions, IAM, and DynamoDB to create scalable, secure, and highly available architecture.
+
+
           
 
           
