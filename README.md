@@ -5,6 +5,7 @@
 ### Cloud DevOps Engineer
 Hey there! I'm Claire, an experienced IT professional with a diverse background spanning IT support and software development. Equipped with an AWS Solutions Architect Associate certification and bolstered by a Master's in IT Management, I thrive on devising innovative solutions and harnessing technology for impactful outcomes. My career has encompassed leadership roles across various tech industries, spearheading projects ranging from monitoring tool migration, cloud cost optimization, and security to automation, SLO/SLI generation, and implementation. Join me on my GitHub journey, where I share insights, projects, and code, reflecting my fervor for achieving excellence in the ever-evolving tech landscape.
 
+----
 ## 💼LANGUAGES AND TOOLS
 Here are some of the tools and languages I have experience with and used in projects:
 
@@ -21,6 +22,7 @@ Here are some of the tools and languages I have experience with and used in proj
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="70px"/>
 </div>
 
+---
 ## 👩‍💻 PROJECTS
 ### 1) EC2 Master
 This AWS project aims to create a highly available and scalable web application infrastructure using Amazon Web Services (AWS). The infrastructure includes a Virtual Private Cloud (VPC) with public and private subnets spread across multiple Availability Zones (AZs), EC2 instances hosting an Nginx web server, an Application Load Balancer (ALB), Auto Scaling Group, and CloudWatch alarms for automatic scaling based on CPU utilization.
@@ -57,7 +59,7 @@ The project architecture consists of the following components:
 
 #### Project Deployment:[          ](https://github.com/clairenwachukwu/ec2Master.git)https://github.com/clairenwachukwu/ec2Master.git
 
-
+---
 ### 2) Cloud-Based Exponent Calculator
 This Exponent calculator Application is a serverless end-to-end cloud-based project designed to calculate the exponent of two numbers provided by the user. The project utilizes several AWS services such as AWS Amplify, S3 bucket, API Gateway, Lambda functions, IAM, and DynamoDB to create scalable, secure, and highly available architecture.
 
@@ -86,19 +88,26 @@ DynamoDB is a NoSQL database service provided by AWS. It is used to store the ca
 
 + Other Technology used: Terraform, Python, Bash
 
-Project Deployment: https://github.com/clairenwachukwu/ec2Master.git
+#### Project Deployment: https://github.com/clairenwachukwu/ec2Master.git
 
-
+---
 
 ## 🛠️  Currently Working On..
 ###  DevSecOps Pipeline Project: Deploy Netflix Clone on Kubernetes
 In this project centered around DevSecOps practices, my goal is to employ a secure continuous integration and continuous deployment (CICD) pipeline, orchestrated by Jenkins, to deploy a Netflix-like application as a Docker container onto a Kubernetes cluster. This deployment involves the utilization of various widely-used DevOps tools such as Docker, Sonarqube, Trivy, Prometheus, Grafana, and additionally, Argocd and Helm for managing Kubernetes deployments.
 
+<img src="https://github.com/clairenwachukwu/clairenwachukwu/blob/2de831c5f6b3833423fbadea4705ec3aa8fad499/DevSecOps%20Project.png" alt="Alt text" style="width:auto;height:500px;">
+
+The application and infrastructure repositories for this project are currently private but happy to answer questions if you have any 😊.
+
+---
+
+### :fire: My Stats :
+![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=clairenwachukwu&theme=dark&background=000000)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=clairenwachukwu&layout=compact&theme=vision-friendly-dark)
 
 
-          
 
-          
 
           
 
