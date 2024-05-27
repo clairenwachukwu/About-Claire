@@ -98,7 +98,7 @@ DynamoDB is a NoSQL database service provided by AWS. It is used to store the ca
 
 + Other Technology used: Terraform, Python, Bash
 
-#### Project Deployment: https://github.com/clairenwachukwu/ec2Master.git
+#### Project Deployment: https://github.com/clairenwachukwu/Exponent_Cal_Cloud
 
 ---
 
